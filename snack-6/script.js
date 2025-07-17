@@ -17,5 +17,5 @@ const longerThan15 = zucchine.filter((weapon) => {
   return weapon.length >= 15;});
 console.log(longerThan15);
 const shorterThan15 = zucchine.filter((notAWeapon) => {
-  return notAWeapon.length <= 15;});
+  return notAWeapon.length < 15;});
 console.log(shorterThan15);
